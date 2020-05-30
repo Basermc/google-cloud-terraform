@@ -25,4 +25,4 @@ cuando tengamos el account.json deberemos ejecutar
 
 3. terraform apply --auto-approve
 
-seguramente en la mayoria de los casos nos de un error comun, en el mismo error aparecera una URL, copiamos la url y la pegamos en nuestro navegador, deberemos habilitar el servicio al cual el error nos redirecciona.
+seguramente en la mayoria de los casos nos de un error comun, en el mismo error aparecera una URL, copiamos la url y la pegamos en nuestro navegador, deberemos habilitar el servicio al cual el error nos redirecciona en nuestro proyecto anteriormente creado en google cloud.
