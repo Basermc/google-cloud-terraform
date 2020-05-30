@@ -6,7 +6,7 @@ REQUISITOS:
   1. iniciar un proyecto nuevo en google cloud
   2. descargarnos el account.json
   3. cambiar el nombre de proyecto del archivo main.tf 
---------------------------------------------------- 
+---------------------------------------------------
 todo esto se ejecutara a traves de terraform
 
 para ello deberemos instalar terraform
