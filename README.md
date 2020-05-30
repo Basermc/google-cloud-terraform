@@ -19,10 +19,14 @@ deberemos colocar nuestro account.json en la raiz de la carpeta
 
 cuando tengamos el account.json deberemos ejecutar
 
-1. terraform init
+1. terraform init -- iniciamos el proyecto a desplegar
 
-2. terraform plan
+2. terraform plan -- comprobamos que vamos a crear con nuestros ficheros .tf
 
-3. terraform apply --auto-approve
+3. terraform apply --auto-approve -- desplegamos el proyecto entero con una autoaprobación
 
 seguramente en la mayoria de los casos nos de un error comun, en el mismo error aparecera una URL, copiamos la url y la pegamos en nuestro navegador, deberemos habilitar el servicio al cual el error nos redirecciona en nuestro proyecto anteriormente creado en google cloud.
+
+REPETIMOS EL APPLY 
+
+si todo a salido correctamente debereis tener en el output del terminal la dirección IP por la cual veremos nuestro WELCOME NGINX.
